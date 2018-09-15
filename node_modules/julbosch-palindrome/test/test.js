@@ -8,6 +8,11 @@ describe("Phrase", function() {
       assert(!nonPalindrome.palindrome());
     });
 
+    it("should return FALSE for an empty string.", function () {
+      let emptyPhrase = new Phrase("");
+      assert(!emptyPhrase.palindrome());
+    })
+
     it("should return TRUE for a plain palindrome", function() {
       let plainPalindrome = new Phrase("racecar");
       assert(plainPalindrome.palindrome());

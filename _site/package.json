@@ -1,0 +1,7 @@
+{
+  "requires": true,
+  "lockfileVersion": 0,
+  "dependencies": {
+    "julbosch-palindrome": "^0.2.0"
+  }
+}
